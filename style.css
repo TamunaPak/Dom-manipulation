@@ -1,0 +1,72 @@
+body {
+    margin: 40px;
+}
+
+.main-heading {
+    font-size: 3em;
+    color: rgb(149, 10, 116);
+    text-align: center;
+}
+
+/* Define the .description class */
+.description {
+    font-style: italic;
+    font-size: 2em;
+    color: rgb(223, 16, 165);
+    text-align: center;
+}
+
+/* Define the .input-field class */
+.input-field {
+    padding: 10px;
+    margin-bottom: 7px;
+    border: 2px solid #750761;
+    border-radius: 7px;
+}
+
+/* Define the .btn class */
+.btn {
+    padding: 10px 19px;
+    background-color: rgba(194, 8, 110, 0.929);
+    color: rgb(21, 28, 215);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(167, 190, 20);
+}
+
+/* Define the .item class */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    border-bottom: 3px solid #b91392;
+
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    border-bottom: 1px solid #ccc;
+}
+
+
+/* Define the .delete class */
+.delete {
+    color: rgb(169, 191, 29);
+    background-color: rgb(255, 228, 196);
+    cursor: pointer;
+}
+
+.delete:hover {
+    background-color: rgb(170, 10, 98);
+}
+
+/* Define the .done class */
+.done {
+    text-decoration: line-through rgb(213, 5, 5);
+}
